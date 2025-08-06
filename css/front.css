@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+body {
+  width: 100vw;
+  background-color: hsl(0, 0%, 8%);
+  font-family: sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  width: 300px;
+  height: 600px;
+  margin: 30px 20px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+section img {
+  border-radius: 50%;
+  width: 100px;
+  margin: 30px;
+}
+section h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+section .location {
+  color: hsl(75, 94%, 57%);
+  font-weight: bold;
+}
+section .about-me {
+  margin: 30px 0px;
+  font-size: 14px;
+}
+section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  width: 100%;
+}
+section button {
+  width: 90%;
+  height: 40px;
+  border: none;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+}
+
+@media (min-width: 1200px) {
+  button {
+    transition: color 0.3s, background-color 0.3s;
+  }
+  button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: #000;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=front.css.map */
